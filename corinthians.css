@@ -1,0 +1,279 @@
+﻿.rodape {
+  background-color: #111;       /* Fundo escuro */
+  color: #aaa;                  /* Texto acinzentado */
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  border-top: 1px solid #333;   /* Linha separadora */
+  margin-top: 40px;
+}
+.rodape p {
+  margin: 5px 0;
+}
+
+.recente-container {
+  padding: 40px 30px;        /* Espaçamento interno */
+  max-width: none;           
+}
+
+
+.recente-titulo {
+  font-size: 36px;           
+  color: #fff;               
+  margin-bottom: 30px;       /* Espaço abaixo */
+  text-align: left;          /* Alinhamento à esquerda */
+  margin-left: 0;            /* Sem margem à esquerda */
+}
+
+
+.recente-bloco {
+  display: flex;             
+  align-items: flex-start;   /* Alinha itens no topo */
+  flex-wrap: nowrap;         /* Não quebra linha */
+  justify-content: space-between; /* Espaço entre elementos */
+}
+
+
+.recente-texto {
+  font-size: 16px;           
+  color: white;              
+  line-height: 1.6;          /* Altura da linha */
+  text-align: left;          /* Alinhamento à esquerda */
+  margin: 0;
+  padding: 0;
+  max-width: 500px;          /* Largura máxima */
+  flex-shrink: 0;            /* Impede de encolher */
+}
+
+
+.recente-img {
+  width: 700px;              
+  height: auto;             
+  border: none;
+  border-radius: 0;
+  margin-left: auto;
+  margin-top: -60px;         /* Sobrepõe para cima */
+}
+
+
+.jogadores-secao {
+  padding: 40px;
+  max-width: 1200px;         /* Limita largura total */
+  margin: auto;              /* Centraliza */
+}
+
+
+.titulo-jogadores {
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+
+.jogadores-duas-colunas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;           /* Permite quebra de linha */
+  gap: 40px;                 /* Espaço entre colunas */
+}
+
+
+.coluna-jogadores {
+  display: flex;
+  flex-direction: column;    /* Alinha itens verticalmente */
+  gap: 30px;
+  flex: 1;                   /* Ocupa espaço igual */
+}
+
+
+.jogador-card {
+  display: flex;
+  align-items: center;
+  background-color: #111;    /* Fundo escuro */
+  border: 1px solid #333;    
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  transition: transform 0.3s; /* Animação suave */
+  min-height: 120px;
+}
+
+
+.jogador-card:hover {
+  transform: scale(1.02);    /* Leve aumento no tamanho */
+}
+
+
+.jogador-texto {
+  flex: 1;
+  padding-right: 15px;
+}
+
+
+.jogador-texto h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+
+.jogador-texto p {
+  font-size: 14px;
+}
+
+
+.jogador-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;         /* Cobre sem distorcer */
+  border-radius: 8px;
+  border: 2px solid #555;
+}
+
+
+.feitos-caixa {
+  padding: 40px;
+  text-align: center;
+}
+
+
+.titulo-feitos {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+
+.feitos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+}
+
+
+.feito-card {
+  background-color: #111;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 20px;
+  color: #fff;
+  transition: transform 0.3s;
+}
+
+
+.feito-card:hover {
+  transform: scale(1.05);
+}
+
+
+.feito-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.feito-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+
+.feito-card p {
+  font-size: 16px;
+}
+
+
+.surgimento-caixa {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.text-surgimento {
+  flex: 1;
+  padding: 20px;
+}
+
+.imagem-surgimento {
+  flex: 1.5;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.imagem-surgimento img {
+  width: 600px;
+  height: auto;
+}
+
+
+body {
+  font-family: Arial;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.imagem-Corinthians {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.imagem-Corinthians img {
+  width: 100%;
+  max-width: 600px;  /* Controla o tamanho */
+  height: auto;
+  border-radius: 10px;
+}
+
+header {
+  background-color: #111;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+.HUD {
+  display: flex;
+}
+
+
+.HUD-Itens {
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+main {
+  padding: 40px;
+  text-align: center;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+}
